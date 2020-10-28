@@ -18,9 +18,9 @@ function App () {
             <Navbar/>
             <Switch>
                 <Route path='/' component={Home} exact/>
-                <Route path='/ToS' component={ToS} exact/>
-                <Route path='/Commissions' component={Commissions} exact/>
-                <Route path='/Gallery' component={Gallery} exact/>
+                <Route path='/ToS' component={ToS}/>
+                <Route path='/Commissions' component={Commissions}/>
+                <Route path='/Gallery' component={Gallery}/>
                 <Route component={{Error}}/>
             </Switch>
        </Router>

@@ -81,3 +81,8 @@ div.vertical {
     width: 16rem;
     height: 14.9375rem;
 }
+
+#headerDivetus {
+    color: var(--diviBlue);
+    border: none;
+}
