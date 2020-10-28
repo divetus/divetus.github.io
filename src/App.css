@@ -11,43 +11,45 @@
     --diviBorder: #707070;
 }
 
-.bodyContent {
-    margin-left: 29.625rem;
-}
+@media only screen and (min-width: 768px) {
+    .bodyContent {
+        margin-left: 29.625rem;
+    }
 
-.home {
-    margin-top: 6.96875rem;
-}
+    .home {
+        margin-top: 6.96875rem;
+    }
 
-.home p.homeContent {
-    color: var(--diviSilver);
-    font: normal normal 500 1.35rem/1.85625rem Open Sans;
-    max-width: 47.9375rem;
-    max-height: 26.1875rem;
-    text-align: left;
-    opacity: 1;
-}
+    .home p.homeContent {
+        color: var(--diviSilver);
+        font: normal normal 500 1.35rem/1.85625rem Open Sans;
+        max-width: 47.9375rem;
+        max-height: 26.1875rem;
+        text-align: left;
+        opacity: 1;
+    }
 
-.home p.homeContentRed{
-    margin-top: 2.4375rem;
-    max-width: 47.9375rem;
-    max-height: 9.0625rem;
-    color: var(--diviRed);
-    text-align: left;
-    font: normal normal 800 1.35rem/1.63125rem Lato;
-    letter-spacing: 0.075rem;
+    .home p.homeContentRed {
+        margin-top: 2.4375rem;
+        max-width: 47.9375rem;
+        max-height: 9.0625rem;
+        color: var(--diviRed);
+        text-align: left;
+        font: normal normal 800 1.35rem/1.63125rem Lato;
+        letter-spacing: 0.075rem;
 
-}
+    }
 
-.home .homeTOS {
-    color: var(--diviRed);
-}
+    .home .homeTOS {
+        color: var(--diviRed);
+    }
 
-.tos {
-    margin-top: 2.78125rem;
-}
+    .tos {
+        margin-top: 2.78125rem;
+    }
 
-.tos h1 {
-    font: normal normal 800 2.025rem/2.75625rem Open Sans;
-    color: var(--diviGrey);
+    .tos h1 {
+        font: normal normal 800 2.025rem/2.75625rem Open Sans;
+        color: var(--diviGrey);
+    }
 }
