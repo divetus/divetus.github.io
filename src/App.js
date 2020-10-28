@@ -17,10 +17,10 @@ function App () {
            <Sidebar/>
             <Navbar/>
             <Switch>
-                <Route path='/' component={Home} exact/>
-                <Route path='/ToS' component={ToS}/>
-                <Route path='/Commissions' component={Commissions}/>
-                <Route path='/Gallery' component={Gallery}/>
+                <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
+                <Route path={process.env.PUBLIC_URL + '/tos'} component={ToS}/>
+                <Route path={process.env.PUBLIC_URL + '/commissions'} component={Commissions}/>
+                <Route path={process.env.PUBLIC_URL + '/gallery'} component={Gallery}/>
                 <Route component={{Error}}/>
             </Switch>
        </Router>
