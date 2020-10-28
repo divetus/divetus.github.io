@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Commissions from "./components/Commission";
+import Gallery from "./components/Gallery";
+import ToS from "./components/ToS";
+import Error from "./components/Error";
+import Sidebar from "./components/Sidebar";
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello world
-        </a>
-      </header>
-    </div>
-  );
+function App () {
+    return(
+       <Router>
+           <Sidebar/>
+            <Navbar/>
+            <Switch>
+                <Route path='/' component={Home} exact/>
+                <Route path='/ToS' component={ToS} exact/>
+                <Route path='/Commissions' component={Commissions} exact/>
+                <Route path='/Gallery' component={Gallery} exact/>
+                <Route component={{Error}}/>
+            </Switch>
+       </Router>
+    );
 }
 
 export default App;
