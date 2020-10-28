@@ -1,42 +1,5 @@
-@media only screen and (min-width: 768px) {
-  hr {
-    width: 88.8125rem;
-    margin-left: 29.59375rem;
-    border-top: 0.0625rem solid var(--diviBorder);
-    opacity: 0.5;
+@import "Desktop.css" screen and (min-width: 768px);
 
-  }
-
-
-  .navbar {
-    color: var(--diviGrey);
-    font: normal normal 700 1.35rem/1.63rem Lato;
-    letter-spacing: 0.075rem;
-    display: flex;
-    position: relative;
-    margin-top: 4.625rem;
-    margin-left: 65.5rem;
-    text-align: left;
-  }
-
-  .navbarLink {
-    border: none;
-    padding: 0.625rem 1.84375rem 0.5625rem 1.84375rem;
-    color: var(--diviGrey);
-  }
-
-  .active {
-    border-top: 0.0625rem solid rgba(112, 112, 112, 0.5);;
-    border-right: 0.0625rem solid rgba(112, 112, 112, 0.5);
-    border-left: 0.0625rem solid rgba(112, 112, 112, 0.5);
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  Nav a:hover {
-    color: var(--diviBlue);
-  }
-
-}
+/*@media screen and (max-width: 600px) {*/
+/*  .navbar a:not(:first-child) {display: none;}*/
+/*}*/

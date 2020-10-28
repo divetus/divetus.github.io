@@ -1,0 +1,83 @@
+hr {
+    width: 88.8125rem;
+    margin-left: 29.59375rem;
+    border-top: 0.0625rem solid var(--diviBorder);
+    opacity: 0.5;
+
+}
+
+.navbar {
+
+    color: var(--diviGrey);
+    font: normal normal 700 1.35rem/1.63rem Lato;
+    letter-spacing: 0.075rem;
+    display: flex;
+    position: relative;
+    margin-top: 4.625rem;
+    margin-left: 75rem;
+    text-align: left;
+}
+
+.navbarLink {
+    border: none;
+    padding: 0.625rem 1.84375rem 0.5625rem 1.84375rem;
+    color: var(--diviGrey);
+}
+
+.active {
+    border-top: 0.0625rem solid rgba(112, 112, 112, 0.5);;
+    border-right: 0.0625rem solid rgba(112, 112, 112, 0.5);
+    border-left: 0.0625rem solid rgba(112, 112, 112, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+Nav a:hover {
+    color: var(--diviBlue);
+}
+
+div.sidebar-container {
+    position: fixed;
+    background-color: white;
+    width:  368.5px;
+    height: 1080px;
+}
+
+
+.sidebar {
+    position: fixed;
+    font: normal normal 500 1.125rem/0.625rem Guardians;
+    text-align: left;
+    color: var(--diviBlue);
+    border: var(--diviSky);
+    top: 3.125rem;
+    left: 3.125rem;
+    width: 15.8125rem;
+    height: 3.125rem;
+}
+
+div.vertical {
+    position: fixed;
+    margin-top: -2.8125rem;
+    left: 23.0625rem;
+    width: 0.0625rem;
+    height: 90%;
+    background: rgba(112, 112, 112, 0.5);
+}
+
+.sidebar hr {
+    width: 19.3125rem;
+    top: 7.3125rem;
+    margin-left: -1.875rem;
+    opacity: 0.50;
+}
+
+.sidebar img {
+    margin-top: 1.6875rem;
+    top: 9rem;
+    left: 3.625rem;
+    width: 16rem;
+    height: 14.9375rem;
+}
