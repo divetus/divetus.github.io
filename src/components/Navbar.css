@@ -1,5 +1,7 @@
-@import "Desktop.css" screen and (min-width: 768px);
+@import "Desktop.css" only screen and (min-width: 1200px);
 
+@media screen and (min-width: 768px) and (max-width: 1765px) {
+}
 /*@media screen and (max-width: 600px) {*/
 /*  .navbar a:not(:first-child) {display: none;}*/
 /*}*/

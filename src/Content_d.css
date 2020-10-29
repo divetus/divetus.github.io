@@ -1,9 +1,13 @@
 .bodyContent {
-    margin-left: 29.625rem;
+    margin-left: 29.625em;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .home {
-    margin-top: 6.96875rem;
+    margin-top: 5.96875rem;
 }
 
 .home p.homeContent {
@@ -12,18 +16,19 @@
     max-width: 47.9375rem;
     max-height: 26.1875rem;
     text-align: left;
+    display: inline-block;
     opacity: 1;
+
 }
 
 .home p.homeContentRed {
-    margin-top: 2.4375rem;
     max-width: 47.9375rem;
     max-height: 9.0625rem;
     color: var(--diviRed);
     text-align: left;
     font: normal normal 800 1.35rem/1.63125rem Lato;
     letter-spacing: 0.075rem;
-
+    display: inline-block;
 }
 
 .home .homeTOS {

@@ -8,7 +8,9 @@ export default function home() {
             Twitch emote commissions are typically indefinitely opened, but the status and speed of completion are based on their real-life schedule.
                 <br/><br/>
                 To inquire about any type of commission, use the social media links or the email button on the left navigation bar.
-                To look at the work schedule and approximation of when your commission would be done, please take a look at the schedule.</p>
+                To look at the work schedule and approximation of when your commission would be done, please take a look at the schedule.
+                <br/><br/>
+            </p>
             <p className="homeContentRed">Please read the <a className="homeTOS" href='tos'>Terms of Service</a> tab before sending a message.
             <br/><br/>
                 I consider anyone who commissions art/designs from me through any platform (twitter, discord, email) to have read and agree with these terms.</p>

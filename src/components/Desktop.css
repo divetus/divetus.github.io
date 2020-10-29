@@ -1,20 +1,22 @@
-hr {
-    width: 88.8125rem;
-    margin-left: 29.59375rem;
-    border-top: 0.0625rem solid var(--diviBorder);
-    opacity: 0.5;
 
+.navbar-container {
+    margin-top: 4.625rem;
 }
 
-.navbar {
+div hr.navbarline {
+    position: relative;
+    width: 88.8125rem;
+    margin-left: 29.5625rem;
+    border-top: 0.0625rem solid var(--diviBorder);
+    opacity: 0.5;
+}
 
+nav {
     color: var(--diviGrey);
     font: normal normal 700 1.35rem/1.63rem Lato;
     letter-spacing: 0.075rem;
-    display: flex;
     position: relative;
-    margin-top: 4.625rem;
-    margin-left: 75rem;
+    margin-left: 75.5rem;
     text-align: left;
 }
 
@@ -38,11 +40,14 @@ Nav a:hover {
     color: var(--diviBlue);
 }
 
+
 div.sidebar-container {
     position: fixed;
-    background-color: white;
-    width:  368.5px;
-    height: 1080px;
+    z-index: 1;
+    width: 23.03125rem;
+    height: 100%;
+    margin-top: -4.6rem;
+    overflow-x: hidden;
 }
 
 
@@ -52,15 +57,21 @@ div.sidebar-container {
     text-align: left;
     color: var(--diviBlue);
     border: var(--diviSky);
-    top: 3.125rem;
-    left: 3.125rem;
-    width: 15.8125rem;
-    height: 3.125rem;
+    margin-top: 3.07rem;
+    left: 3.8125rem;
+}
+
+.profileDescription {
+    font: normal normal 600 1.5rem/1.8125rem Lato;
+    margin-left: -1rem;
+    letter-spacing: 0px;
+    color: var(--diviGrey);
+    opacity: 1;
 }
 
 div.vertical {
     position: fixed;
-    margin-top: -2.8125rem;
+    margin-top: 1.875rem;
     left: 23.0625rem;
     width: 0.0625rem;
     height: 90%;
@@ -68,8 +79,8 @@ div.vertical {
 }
 
 .sidebar hr {
+    position: relative;
     width: 19.3125rem;
-    top: 7.3125rem;
     margin-left: -1.875rem;
     opacity: 0.50;
 }
@@ -85,4 +96,17 @@ div.vertical {
 #headerDivetus {
     color: var(--diviBlue);
     border: none;
+}
+
+.faIcons {
+    margin-left: 1.29375rem;
+    font-size: 3.09375rem;
+}
+
+.sidebarIcons {
+    margin-left: -1rem;
+}
+
+.customTooltip {
+    font-family: Lato !important;
 }
