@@ -4,6 +4,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
 import Box from "@material-ui/core/Box"
+import ImageGridList from "./GalleryComponent";
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -19,7 +20,7 @@ const AntTabs = withStyles({
         marginLeft: '30.875rem'
     },
     indicator: {
-        backgroundColor: 'var(--diviGrey)',
+        backgroundColor: 'transparent',
     },
 })(Tabs);
 
@@ -33,12 +34,12 @@ const AntTab = withStyles((theme) => ({
             'Lato',
         ].join(','),
         '&:hover': {
-            color: 'var(--diviGrey)',
+            color: 'var(--diviDark)',
             opacity: 1,
         },
         '&$selected': {
-            color: 'var(--diviGrey)',
-            fontWeight: theme.typography.fontWeightMedium,
+            color: 'var(--diviBlue)',
+            fontWeight: theme.typography.fontWeightBold,
         },
         letterSpacing: '1px',
         fontSize: '1rem'
@@ -83,7 +84,7 @@ export default function Gallery() {
     };
 
     return (
-        <div className={classes.root}>
+        <div className={'galleryOverride'}>
             <div className={classes.gallery}>
                 <AppBar className={classes.transparentBar} position={"static"}>
                 <AntTabs value={value} onChange={handleChange} aria-label="gallery-tabs">
@@ -95,7 +96,7 @@ export default function Gallery() {
                 </AntTabs>
                 </AppBar>
                 <TabPanel className={classes.galleryContent} value={value} index={0}>
-                    asdasdsadasd
+                    <ImageGridList/>
                 </TabPanel>
                 <TabPanel className={classes.galleryContent} value={value} index={2}>
                     basdasdsa

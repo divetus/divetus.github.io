@@ -19,7 +19,7 @@ const AntTabs = withStyles({
         marginLeft: '30.875rem'
     },
     indicator: {
-        backgroundColor: 'var(--diviGrey)',
+        backgroundColor: 'transparent',
     },
 })(Tabs);
 
@@ -33,12 +33,12 @@ const AntTab = withStyles((theme) => ({
             'Lato',
         ].join(','),
         '&:hover': {
-            color: 'var(--diviGrey)',
+            color: 'var(--diviDark)',
             opacity: 1,
         },
         '&$selected': {
-            color: 'var(--diviGrey)',
-            fontWeight: theme.typography.fontWeightMedium,
+            color: 'var(--diviBlue)',
+            fontWeight: theme.typography.fontWeightBold,
         },
         letterSpacing: '1px',
         fontSize: '1rem'
