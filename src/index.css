@@ -14,5 +14,5 @@ code {
 
 @font-face {
   font-family: 'Guardians';
-  src: local('Guardians'), url(./fonts/Guardians.ttf) format('truetype');
+  src: local('Guardians'), url(assets/Guardians.ttf) format('truetype');
 }

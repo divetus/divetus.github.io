@@ -47,7 +47,7 @@ div.sidebar-container {
     width: 23.03125rem;
     height: 100%;
     margin-top: -4.6rem;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -58,7 +58,7 @@ div.sidebar-container {
     color: var(--diviBlue);
     border: var(--diviSky);
     margin-top: 3.07rem;
-    left: 3.8125rem;
+    left: 5rem;
 }
 
 .profileDescription {
@@ -71,8 +71,8 @@ div.sidebar-container {
 
 div.vertical {
     position: fixed;
-    margin-top: 1.875rem;
-    left: 23.0625rem;
+    margin-top: -2rem;
+    left: 25.0625rem;
     width: 0.0625rem;
     height: 90%;
     background: rgba(112, 112, 112, 0.5);
@@ -103,10 +103,50 @@ div.vertical {
     font-size: 3.09375rem;
 }
 
+.faIcons:hover {
+    color: var(--diviDark);
+}
+
 .sidebarIcons {
     margin-left: -1rem;
 }
 
 .customTooltip {
     font-family: Lato !important;
+}
+
+.commissionStatusText {
+    margin-left: 0.6rem;
+    margin-top: 1.5rem;
+    color: var(--diviGrey);
+    text-align: left;
+    font: normal normal normal 1.125rem/1.35rem Lato;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+.commissionStatusState {
+    font: normal normal bold 1.125rem/1.35rem Lato;
+    color: var(--diviGreen);
+}
+
+.buttonStyle {
+    background: var(--diviBlue) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 1.25rem;
+    opacity: 1;
+    margin-left: -1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 19.25rem;
+    height: 4.375rem;
+    text-align: center;
+    font: normal normal 600 1.35rem/1.63125rem Lato;
+    letter-spacing: 0.45rem;
+    color: var(--diviWhite);
+    outline: none;
+}
+
+.buttonStyle:hover {
+    background: var(--diviDark);
 }

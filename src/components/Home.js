@@ -1,4 +1,5 @@
 import React from "react";
+import DivetusLogo from '../assets/DivetusLogo.png'
 
 export default function home() {
     return(
@@ -14,6 +15,7 @@ export default function home() {
             <p className="homeContentRed">Please read the <a className="homeTOS" href='tos'>Terms of Service</a> tab before sending a message.
             <br/><br/>
                 I consider anyone who commissions art/designs from me through any platform (twitter, discord, email) to have read and agree with these terms.</p>
+            <img className={'dragon'} src={DivetusLogo} alt={'dragon-logo'}/>
         </div>
     )
 }

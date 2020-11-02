@@ -16,7 +16,7 @@ body {
     max-width: 47.9375rem;
     max-height: 26.1875rem;
     text-align: left;
-    display: inline-block;
+    display: block;
     opacity: 1;
 
 }
@@ -28,7 +28,7 @@ body {
     text-align: left;
     font: normal normal 800 1.35rem/1.63125rem Lato;
     letter-spacing: 0.075rem;
-    display: inline-block;
+    display: block;
 }
 
 .home .homeTOS {
@@ -39,7 +39,10 @@ body {
     margin-top: 2.78125rem;
 }
 
-.tos h1 {
-    font: normal normal 800 2.025rem/2.75625rem Open Sans;
-    color: var(--diviGrey);
+.dragon {
+    position: absolute;
+    top: 484px;
+    left: 1240px;
+    width: 630px;
+    height: 446px;
 }

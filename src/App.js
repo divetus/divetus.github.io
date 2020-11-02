@@ -19,9 +19,9 @@ function App () {
             <Navbar/>
             <Switch>
                 <Route path={process.env.PUBLIC_URL + '/'} component={Home} exact/>
-                <Route path={process.env.PUBLIC_URL + '/ToS'} component={ToS}/>
-                <Route path={process.env.PUBLIC_URL + '/Commissions'} component={Commissions}/>
-                <Route path={process.env.PUBLIC_URL +'/Gallery'} component={Gallery}/>
+                <Route path={process.env.PUBLIC_URL + '/tos'} component={ToS}/>
+                <Route path={process.env.PUBLIC_URL + '/commissions'} component={Commissions}/>
+                <Route path={process.env.PUBLIC_URL +'/gallery'} component={Gallery}/>
                 <Route component={Error}/>
             </Switch>
            </div>
