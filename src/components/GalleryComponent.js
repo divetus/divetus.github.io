@@ -1,23 +1,45 @@
 import React from "react";
 import Gallery from "react-grid-gallery";
-import TileData from './GalleryImages'
+import { emoteData, badgeData } from './GalleryImages'
 
-export default function ImageGridList() {
+export function EmoteGridList() {
     return (
         <div className={'imageGallery'} style={{
             display: "block",
-            height: '650px',
-            margin: 'auto',
+            height: '632px',
+            margin: '10px 70px',
             width: "1272px",
             overflow: "hidden"}}>
         <Gallery
-            images={TileData}
+            images={emoteData}
             enableLightbox={true}
             enableImageSelection={false}
             maxRows={2}
-            rowHeight={320}
+            margin={5}
+            rowHeight={309}
             backdropClosesModal
         />
+        </div>
+    );
+}
+
+export function BadgeGridList() {
+    return (
+        <div className={'imageGallery'} style={{
+            display: "block",
+            height: '500.75px',
+            margin: '10px 70px',
+            width: "1272px",
+            overflow: "hidden"}}>
+            <Gallery
+                images={badgeData}
+                enableLightbox={true}
+                enableImageSelection={false}
+                maxRows={3}
+                margin={5}
+                rowHeight={145}
+                backdropClosesModal
+            />
         </div>
     );
 }

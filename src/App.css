@@ -1,4 +1,6 @@
-@import 'Content_d.css' only screen and (min-width: 1200px);
+@import 'Content_d.css';
+
+/*only screen and (min-width: 1200px)*/
 
 :root {
 
@@ -18,21 +20,57 @@
     width: 100%;
 }
 
-@media screen and (min-resolution: 120dpi), screen and (min-resolution: 196dpi)
+@media screen and (min-resolution: 105.6dpi)
 {
-    .navbar-container {
-        transform: scale(0.8);
+    .zoomWrapper {
+        transform: scale(0.9);
+        transform-origin: -3rem 9rem;
+        width: 125%;
+        height: 125%;
+    }
+
+    .sidebar-container {
+        transform: scale(0.9);
         transform-origin: top left;
+        width: 125%;
+        height: 125%;
     }
 
-    div hr.navbarline {
-        width: 92%;
+    .sidebar {
+        margin-top: 5rem;
+        transform: scale(0.9);
+        transform-origin: top left;
+        height: 125%;
     }
 
-    .bodyContent {
-        transform: scale(0.8);
+    div.vertical {
+        transform: scale(0.9);
         transform-origin: -30em -5em;
+        height: 100%;
     }
+}
+
+@media screen and (min-resolution: 120dpi)
+{
+    .zoomWrapper {
+        transform: scale(0.8);
+        transform-origin: -2rem 0;
+        width: 125%;
+        height: 125%;
+    }
+    /*.navbar-container {*/
+    /*    transform: scale(0.8);*/
+    /*    transform-origin: top left;*/
+    /*}*/
+
+    /*div hr.navbarline {*/
+    /*    width: 92%;*/
+    /*}*/
+
+    /*.bodyContent {*/
+    /*    transform: scale(0.8);*/
+    /*    transform-origin: -30em -5em;*/
+    /*}*/
 
     .sidebar-container {
         transform: scale(0.8);
@@ -54,61 +92,81 @@
         height: 115%;
     }
 
-    .dragon {
-        transform: scale(0.8);
-        transform-origin: left;
-        margin: -13em -25em;
-    }
+    /*.dragon {*/
+    /*    transform: scale(0.8);*/
+    /*    transform-origin: left;*/
+    /*    margin: -13em -25em;*/
+    /*}*/
 
-    .galleryOverride {
-        transform: scale(0.8);
-        transform-origin: top left;
-    }
+    /*.galleryOverride {*/
+    /*    transform: scale(0.8);*/
+    /*    transform-origin: top left;*/
+    /*}*/
 
-    div.imageGallery {
-        margin-left: 4rem !important;
-    }
+    /*div.imageGallery {*/
+    /*    margin-left: 4rem !important;*/
+    /*}*/
 }
 
 @media screen and (min-resolution: 144dpi) {
-    .navbar-container {
-        transform: scale(0.7);
-        transform-origin: 8rem 0;
-    }
-
-    div hr.navbarline {
-        width: 98%;
-    }
-    .navbar {
-        transform: scale(0.8);
-        transform-origin: 0 2rem;
-    }
-
-    .bodyContent {
-        transform: scale(0.6);
-        transform-origin: -16.2em -5em;
+    .zoomWrapper {
+        transform: scale(0.66);
+        transform-origin: -1rem -5rem;
+        width: 125%;
+        height: 125%;
     }
 
     .sidebar {
-        transform: scale(0.65);
-        transform-origin: 3rem 1rem;
+        transform: scale(0.7);
+        transform-origin: -2rem -7rem;
+    }
+
+    div.vertical {
+        transform: scale(0.77);
+        transform-origin: -35em -5em;
+        height: 115%;
+    }
+
+}
+@media screen and (min-resolution: 168dpi) {
+    .zoomWrapper {
+        transform: scale(0.56);
+        transform-origin: -1rem -5rem;
+        width: 140%;
+        height: 100%;
+    }
+
+    .sidebar {
+        transform: scale(0.56);
+        transform-origin: -2rem -5.7rem;
+    }
+
+    div.vertical {
+        transform: scale(0.7);
+        transform-origin: -40em -5em;
+        height: 130%;
+    }
+
+}
+
+
+@media screen and (min-resolution: 192dpi) {
+    .zoomWrapper {
+        transform: scale(0.50) translateZ(0);
+        transform-origin: 0 -5rem;
+        width: 175%;
+        height: 175%;
+    }
+
+    .sidebar {
+        transform: scale(0.5);
+        transform-origin: -1rem -5.5rem;
     }
 
     div.vertical {
         transform: scale(0.8);
-        transform-origin: -30em -5em;
+        transform-origin: -60em -5em;
         height: 115%;
-    }
-
-    .dragon {
-        transform: scale(0.8);
-        transform-origin: left;
-        margin: -13em -25em;
-    }
-
-    .galleryOverride {
-        transform: scale(0.69);
-        transform-origin: 4rem 0;
     }
 
 }

@@ -4,6 +4,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
 import Box from "@material-ui/core/Box"
+import CommissionsComponent from "./CommissionsComponent";
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -47,25 +48,11 @@ const AntTab = withStyles((theme) => ({
 }))((props) => <Tab disableRipple {...props} />);
 
 const useStyles = makeStyles((theme) => ({
-    diviHeadingTwitch: {
-        font: 'normal normal 800 2.025rem/2.75625rem Open Sans',
-        color: 'var(--diviGrey)',
-        letterSpacing: '5.4px',
-        marginLeft: '58.625rem'
-    },
-
     diviHeadingOther: {
         font: 'normal normal 800 2.025rem/2.75625rem Open Sans',
         color: 'var(--diviGrey)',
         letterSpacing: '5.4px',
         marginLeft: '58.625rem'
-    },
-
-    diviSub: {
-        font: 'normal normal 500 1.6875rem/2.025rem Lato',
-        letterSpacing: '1.5px',
-        color: 'var(--diviGrey)',
-        marginLeft: '66rem'
     },
 
     diviSubOther: {
@@ -125,13 +112,11 @@ export default function Commissions() {
                     </AntTabs>
                 </AppBar>
                 <TabPanel className={classes.commissionsContent} value={value} index={0}>
-                    <h1 className={classes.diviHeadingTwitch}>TWITCH COMMISSIONS</h1>
-                    <h2 className={classes.diviSub}>STATUS: <span style={{color: "var(--diviGreen)"}}>OPEN</span></h2>
-                    <p> Commission Page body Content</p>
+                    <CommissionsComponent/>
                 </TabPanel>
                 <TabPanel className={classes.commissionsContentReg} value={value} index={2}>
                     <h1 className={classes.diviHeadingOther}>REGULAR COMMISSIONS</h1>
-                    <h2 className={classes.diviSubOther}>STATUS: <span style={{color: "var(--diviRed)"}}>UNAVAILABLE</span></h2>
+                    <h2 className={classes.diviSubOther}>STATUS: <span style={{color: "var(--diviRed)", fontWeight: 800}}>UNAVAILABLE</span></h2>
                 </TabPanel>
             </div>
         </div>

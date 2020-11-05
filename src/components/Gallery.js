@@ -4,7 +4,8 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
 import Box from "@material-ui/core/Box"
-import ImageGridList from "./GalleryComponent";
+import {BadgeGridList, EmoteGridList} from "./GalleryComponent";
+import Unavailable from '../assets/Unavailable.png'
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -34,7 +35,7 @@ const AntTab = withStyles((theme) => ({
             'Lato',
         ].join(','),
         '&:hover': {
-            color: 'var(--diviDark)',
+            color: 'var(--diviBlue)',
             opacity: 1,
         },
         '&$selected': {
@@ -96,13 +97,13 @@ export default function Gallery() {
                 </AntTabs>
                 </AppBar>
                 <TabPanel className={classes.galleryContent} value={value} index={0}>
-                    <ImageGridList/>
+                    <EmoteGridList/>
                 </TabPanel>
                 <TabPanel className={classes.galleryContent} value={value} index={2}>
-                    basdasdsa
+                    <BadgeGridList/>
                 </TabPanel>
                 <TabPanel className={classes.galleryContent} value={value} index={4}>
-                    Ixcac
+                    <img style={{marginLeft: '25rem', marginTop: '5rem'}}src={Unavailable} alt={'unavailable'}/>
                 </TabPanel>
             </div>
         </div>

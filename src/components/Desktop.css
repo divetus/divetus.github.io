@@ -150,3 +150,23 @@ div.vertical {
 .buttonStyle:hover {
     background: var(--diviDark);
 }
+
+.carousel.carousel-slider .control-arrow {
+    opacity: 1 !important;
+}
+
+.carousel .thumb.selected  {
+    border: 1px solid var(--diviBlue) !important;
+}
+
+.thumb:hover {
+    border: 1px solid var(--diviBlue) !important;
+}
+
+.carousel .thumb.selected {
+    border: 1px solid var(--diviBlue) !important;
+}
+
+.carousel .thumb {
+    margin-left: 30px !important;
+}
