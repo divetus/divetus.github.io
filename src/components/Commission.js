@@ -5,6 +5,7 @@ import Tab from '@material-ui/core/Tab';
 import AppBar from '@material-ui/core/AppBar';
 import Box from "@material-ui/core/Box"
 import CommissionsComponent from "./CommissionsComponent";
+import Unavailable from "../assets/Unavailable.png";
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -115,8 +116,7 @@ export default function Commissions() {
                     <CommissionsComponent/>
                 </TabPanel>
                 <TabPanel className={classes.commissionsContentReg} value={value} index={2}>
-                    <h1 className={classes.diviHeadingOther}>REGULAR COMMISSIONS</h1>
-                    <h2 className={classes.diviSubOther}>STATUS: <span style={{color: "var(--diviRed)", fontWeight: 800}}>UNAVAILABLE</span></h2>
+                    <img className={'UnavailableOther'} style={{marginLeft: '55rem', marginTop: '-4rem'}}src={Unavailable} alt={'unavailable'}/>
                 </TabPanel>
             </div>
         </div>

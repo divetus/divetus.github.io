@@ -103,7 +103,7 @@ export default function Gallery() {
                     <BadgeGridList/>
                 </TabPanel>
                 <TabPanel className={classes.galleryContent} value={value} index={4}>
-                    <img style={{marginLeft: '25rem', marginTop: '5rem'}}src={Unavailable} alt={'unavailable'}/>
+                    <img className={'Unavailable'} style={{marginLeft: '25rem', marginTop: '5rem'}}src={Unavailable} alt={'unavailable'}/>
                 </TabPanel>
             </div>
         </div>

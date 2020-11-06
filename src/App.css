@@ -1,5 +1,6 @@
-@import 'Content_d.css';
-
+@import 'Content_d.css' only screen and (min-width: 1200px);
+@import "./components/Desktop.css" only screen and (min-width: 1200px);
+@import './components/Mobile.css' only screen and (max-width: 1159px);
 /*only screen and (min-width: 1200px)*/
 
 :root {
@@ -20,57 +21,44 @@
     width: 100%;
 }
 
-@media screen and (min-resolution: 105.6dpi)
-{
-    .zoomWrapper {
-        transform: scale(0.9);
-        transform-origin: -3rem 9rem;
-        width: 125%;
-        height: 125%;
-    }
+/*@media screen and (min-resolution: 105.6dpi)*/
+/*{*/
+/*    .zoomWrapper {*/
+/*        transform: scale(0.9);*/
+/*        transform-origin: -3rem 9rem;*/
+/*        width: 125%;*/
+/*        height: 125%;*/
+/*    }*/
 
-    .sidebar-container {
-        transform: scale(0.9);
-        transform-origin: top left;
-        width: 125%;
-        height: 125%;
-    }
+/*    .sidebar-container {*/
+/*        transform: scale(0.9);*/
+/*        transform-origin: top left;*/
+/*        width: 125%;*/
+/*        height: 125%;*/
+/*    }*/
 
-    .sidebar {
-        margin-top: 5rem;
-        transform: scale(0.9);
-        transform-origin: top left;
-        height: 125%;
-    }
+/*    .sidebar {*/
+/*        margin-top: 5rem;*/
+/*        transform: scale(0.9);*/
+/*        transform-origin: top left;*/
+/*        height: 125%;*/
+/*    }*/
 
-    div.vertical {
-        transform: scale(0.9);
-        transform-origin: -30em -5em;
-        height: 100%;
-    }
-}
+/*    div.vertical {*/
+/*        transform: scale(0.9);*/
+/*        transform-origin: -30em -5em;*/
+/*        height: 100%;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-resolution: 120dpi)
+@media screen and (min-resolution: 120dpi), screen and (min-resolution: 105.6dpi), screen and (min-resolution: 144dpi), screen and (min-resolution: 168dpi), screen and (min-resolution: 192dpi)
 {
     .zoomWrapper {
         transform: scale(0.8);
-        transform-origin: -2rem 0;
+        transform-origin: -5rem 0;
         width: 125%;
         height: 125%;
     }
-    /*.navbar-container {*/
-    /*    transform: scale(0.8);*/
-    /*    transform-origin: top left;*/
-    /*}*/
-
-    /*div hr.navbarline {*/
-    /*    width: 92%;*/
-    /*}*/
-
-    /*.bodyContent {*/
-    /*    transform: scale(0.8);*/
-    /*    transform-origin: -30em -5em;*/
-    /*}*/
 
     .sidebar-container {
         transform: scale(0.8);
@@ -91,6 +79,20 @@
         transform-origin: -30em -5em;
         height: 115%;
     }
+
+    /*.navbar-container {*/
+    /*    transform: scale(0.8);*/
+    /*    transform-origin: top left;*/
+    /*}*/
+
+    /*div hr.navbarline {*/
+    /*    width: 92%;*/
+    /*}*/
+
+    /*.bodyContent {*/
+    /*    transform: scale(0.8);*/
+    /*    transform-origin: -30em -5em;*/
+    /*}*/
 
     /*.dragon {*/
     /*    transform: scale(0.8);*/
@@ -108,65 +110,65 @@
     /*}*/
 }
 
-@media screen and (min-resolution: 144dpi) {
-    .zoomWrapper {
-        transform: scale(0.66);
-        transform-origin: -1rem -5rem;
-        width: 125%;
-        height: 125%;
-    }
+/*@media screen and (min-resolution: 144dpi) {*/
+/*    .zoomWrapper {*/
+/*        transform: scale(0.66);*/
+/*        transform-origin: -1rem -5rem;*/
+/*        width: 125%;*/
+/*        height: 125%;*/
+/*    }*/
 
-    .sidebar {
-        transform: scale(0.7);
-        transform-origin: -2rem -7rem;
-    }
+/*    .sidebar {*/
+/*        transform: scale(0.7);*/
+/*        transform-origin: -2rem -7rem;*/
+/*    }*/
 
-    div.vertical {
-        transform: scale(0.77);
-        transform-origin: -35em -5em;
-        height: 115%;
-    }
+/*    div.vertical {*/
+/*        transform: scale(0.77);*/
+/*        transform-origin: -35em -5em;*/
+/*        height: 115%;*/
+/*    }*/
 
-}
-@media screen and (min-resolution: 168dpi) {
-    .zoomWrapper {
-        transform: scale(0.56);
-        transform-origin: -1rem -5rem;
-        width: 140%;
-        height: 100%;
-    }
+/*}*/
+/*@media screen and (min-resolution: 168dpi) {*/
+/*    .zoomWrapper {*/
+/*        transform: scale(0.56);*/
+/*        transform-origin: -1rem -5rem;*/
+/*        width: 140%;*/
+/*        height: 100%;*/
+/*    }*/
 
-    .sidebar {
-        transform: scale(0.56);
-        transform-origin: -2rem -5.7rem;
-    }
+/*    .sidebar {*/
+/*        transform: scale(0.56);*/
+/*        transform-origin: -2rem -5.7rem;*/
+/*    }*/
 
-    div.vertical {
-        transform: scale(0.7);
-        transform-origin: -40em -5em;
-        height: 130%;
-    }
+/*    div.vertical {*/
+/*        transform: scale(0.7);*/
+/*        transform-origin: -40em -5em;*/
+/*        height: 130%;*/
+/*    }*/
 
-}
+/*}*/
 
 
-@media screen and (min-resolution: 192dpi) {
-    .zoomWrapper {
-        transform: scale(0.50) translateZ(0);
-        transform-origin: 0 -5rem;
-        width: 175%;
-        height: 175%;
-    }
+/*@media screen and (min-resolution: 192dpi) {*/
+/*    .zoomWrapper {*/
+/*        transform: scale(0.50) translateZ(0);*/
+/*        transform-origin: 0 -5rem;*/
+/*        width: 175%;*/
+/*        height: 175%;*/
+/*    }*/
 
-    .sidebar {
-        transform: scale(0.5);
-        transform-origin: -1rem -5.5rem;
-    }
+/*    .sidebar {*/
+/*        transform: scale(0.5);*/
+/*        transform-origin: -1rem -5.5rem;*/
+/*    }*/
 
-    div.vertical {
-        transform: scale(0.8);
-        transform-origin: -60em -5em;
-        height: 115%;
-    }
+/*    div.vertical {*/
+/*        transform: scale(0.8);*/
+/*        transform-origin: -60em -5em;*/
+/*        height: 115%;*/
+/*    }*/
 
-}
+/*}*/

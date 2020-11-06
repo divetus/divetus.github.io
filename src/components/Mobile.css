@@ -1,0 +1,194 @@
+
+div hr.navbarline {
+   display: none;
+}
+
+nav {
+    color: var(--diviGrey);
+    font: normal normal 700 1.35rem/1.63rem Lato;
+    letter-spacing: 0.075rem;
+    position: relative;
+    display: flex;
+    align-content: center;
+    left: 3rem;
+    top: -8rem;
+    width: 100%;
+    text-align: left;
+}
+
+.navbarLink {
+    border-bottom: 1px solid var(--diviGrey);
+    padding: 0.625rem 1.84375rem 0.5625rem 5rem;
+    color: var(--diviGrey);
+}
+
+.active {
+}
+
+a {
+    text-decoration: none;
+}
+
+.bodyContent {
+    margin-top: 2rem !important;
+}
+
+Nav a:hover {
+    color: var(--diviBlue);
+}
+
+
+/*div.sidebar-container {*/
+/*    position: relative !important;*/
+/*    margin-top: 2rem;*/
+/*}*/
+
+
+.sidebar {
+    display: flex;
+    font: normal normal 500 1.125rem/0.625rem Guardians;
+    color: var(--diviBlue);
+    border: var(--diviSky);
+    transform-origin: 45rem 15rem !important;
+}
+
+.profileDescription {
+    font: normal normal 600 1.5rem/1.8125rem Lato;
+    margin-left: -1rem;
+    letter-spacing: 0px;
+    color: var(--diviGrey);
+    opacity: 1;
+}
+
+div.vertical {
+   display: none;
+}
+
+.sidebar hr {
+    display: none
+}
+
+.sidebar img {
+    display: none;
+}
+
+.profileDescription {
+    display: none;
+}
+#headerDivetus {
+    color: var(--diviBlue);
+    margin-right: 1rem;
+    margin-left: 2rem;
+    position: relative;
+
+}
+
+.faIcons {
+    display: inline-flex;
+    margin-right: 1rem;
+    font-size: 3.09375rem;
+}
+
+.faIcons:hover {
+    color: var(--diviDark);
+}
+
+.sidebarIcons {
+    display: flex;
+}
+
+.tos {
+    margin-left: 3rem !important;
+}
+
+.galleryOverride {
+    margin-left: -28rem !important;
+    margin-top: 2rem !important;
+}
+
+.twitchHeading {
+    width: 700px !important;
+}
+
+.bodyContent.home {
+    margin-left: 2rem !important;
+    color: var(--diviSilver);
+    font: normal normal 500 1.35rem/1.85625rem Open Sans;
+    padding: 0 5rem 5rem 5rem;
+    align: center;
+}
+
+.bodyContent img {
+    margin-left: 12rem !important;
+    margin-top: 10rem !important;
+    transform: scale(2) !important;
+}
+.customTooltip {
+    font-family: Lato !important;
+}
+
+.Unavailable {
+    margin-left: 12rem !important;
+    margin-top: 15rem !important;
+}
+
+.UnavailableOther {
+    margin-left: 40rem !important;
+    margin-top: 5rem !important;
+}
+.commissionStatusText {
+    margin-left: 0.6rem;
+    margin-top: 1.5rem;
+    color: var(--diviGrey);
+    text-align: left;
+    font: normal normal normal 1.125rem/1.35rem Lato;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+
+.commissionStatusState {
+    font: normal normal bold 1.125rem/1.35rem Lato;
+    color: var(--diviGreen);
+}
+
+.buttonStyle {
+    display: none;
+    /*background: var(--diviBlue) 0% 0% no-repeat padding-box;*/
+    /*border: none;*/
+    /*border-radius: 1.25rem;*/
+    /*opacity: 1;*/
+    /*margin-left: -1.7rem;*/
+    /*margin-top: 1rem;*/
+    /*margin-bottom: 1rem;*/
+    /*width: 19.25rem;*/
+    /*height: 4.375rem;*/
+    /*text-align: center;*/
+    /*font: normal normal 600 1.35rem/1.63125rem Lato;*/
+    /*letter-spacing: 0.45rem;*/
+    /*color: var(--diviWhite);*/
+    /*outline: none;*/
+}
+
+.buttonStyle:hover {
+    background: var(--diviDark);
+}
+
+.carousel.carousel-slider .control-arrow {
+    opacity: 1 !important;
+}
+
+.carousel .thumb.selected  {
+    border: 1px solid var(--diviBlue) !important;
+}
+
+.thumb:hover {
+    border: 1px solid var(--diviBlue) !important;
+}
+
+.carousel .thumb.selected {
+    border: 1px solid var(--diviBlue) !important;
+}
+
+.carousel .thumb {
+    margin-left: 30px !important;
+}

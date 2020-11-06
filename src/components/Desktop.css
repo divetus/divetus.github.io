@@ -5,7 +5,7 @@
 
 div hr.navbarline {
     position: relative;
-    width: 88.8125rem;
+    width: 74%;
     margin-left: 29.5625rem;
     border-top: 0.0625rem solid var(--diviBorder);
     opacity: 0.5;
