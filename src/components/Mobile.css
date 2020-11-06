@@ -47,9 +47,11 @@ Nav a:hover {
 .sidebar {
     display: flex;
     font: normal normal 500 1.125rem/0.625rem Guardians;
+    position: relative;
+    margin-top: 5rem !important;
     color: var(--diviBlue);
     border: var(--diviSky);
-    transform-origin: 45rem 15rem !important;
+    transform-origin: 50rem 25rem !important;
 }
 
 .profileDescription {
@@ -114,7 +116,7 @@ div.vertical {
     margin-left: 2rem !important;
     color: var(--diviSilver);
     font: normal normal 500 1.35rem/1.85625rem Open Sans;
-    padding: 0 5rem 5rem 5rem;
+    padding: 0 2rem 2rem 2rem;
     align: center;
 }
 
