@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.48ee4ab1.chunk.css",
+    "main.css": "/static/css/main.68a32b6a.chunk.css",
     "main.js": "/static/js/main.3fd57ad3.chunk.js",
     "main.js.map": "/static/js/main.3fd57ad3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6f68cd64.js",
@@ -9,10 +9,10 @@
     "static/js/2.704c8458.chunk.js": "/static/js/2.704c8458.chunk.js",
     "static/js/2.704c8458.chunk.js.map": "/static/js/2.704c8458.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b67879b74681af14cf4079a5d3ef8806.js": "/precache-manifest.b67879b74681af14cf4079a5d3ef8806.js",
+    "precache-manifest.6cd3c61a57a650fb3afced288e78e93d.js": "/precache-manifest.6cd3c61a57a650fb3afced288e78e93d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/static/css/2.fb346933.chunk.css.map",
-    "static/css/main.48ee4ab1.chunk.css.map": "/static/css/main.48ee4ab1.chunk.css.map",
+    "static/css/main.68a32b6a.chunk.css.map": "/static/css/main.68a32b6a.chunk.css.map",
     "static/js/2.704c8458.chunk.js.LICENSE.txt": "/static/js/2.704c8458.chunk.js.LICENSE.txt",
     "static/media/DivetusLogo.png": "/static/media/DivetusLogo.6dedc02b.png",
     "static/media/index.css": "/static/media/Guardians.e89ef6c6.ttf",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.6f68cd64.js",
     "static/css/2.fb346933.chunk.css",
     "static/js/2.704c8458.chunk.js",
-    "static/css/main.48ee4ab1.chunk.css",
+    "static/css/main.68a32b6a.chunk.css",
     "static/js/main.3fd57ad3.chunk.js"
   ]
 }
