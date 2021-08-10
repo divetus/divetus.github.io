@@ -89,6 +89,12 @@ export const badgeData = [
         thumbnailHeight: 133.44
     },
     {
+        src: 'https://i.imgur.com/EcvMqc8.png',
+        thumbnail: 'https://i.imgur.com/EcvMqc8.png',
+        thumbnailWidth: 300,
+        thumbnailHeight: 133.44
+    },
+    {
         src: 'https://i.imgur.com/Gryq1de.png',
         thumbnail: 'https://i.imgur.com/Gryq1de.png',
         thumbnailWidth: 300,
