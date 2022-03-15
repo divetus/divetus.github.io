@@ -1,6 +1,6 @@
 @import 'Content_d.css' only screen and (min-width: 1200px);
 @import "./components/Desktop.css" only screen and (min-width: 1200px);
-@import './components/Mobile.css' only screen and (max-width: 1159px);
+@import './components/Mobile.css' only screen and (max-width: 1199px);
 /*only screen and (min-width: 1200px)*/
 
 :root {
